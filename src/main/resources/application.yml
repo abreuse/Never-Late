@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db?serverTimezone=Europe/Berlin
+    username: admin
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+sncf:
+  client-id: c49b4335-7a3c-42fb-9b88-ab3fd938ef2d
+
