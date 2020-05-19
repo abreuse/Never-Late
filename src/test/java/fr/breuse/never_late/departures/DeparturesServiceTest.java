@@ -37,7 +37,7 @@ class DeparturesServiceTest {
     }
 
     @Test
-    void should_fetch_and_return_departures() {
+    void should_fetch_and_return_all_departures() {
         given(sncfClient.getDepartures(anyString(), anyString())).willReturn(mockSNCFDepartureResponse());
 
         List<Departure> actualDepartures =
